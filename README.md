@@ -26,12 +26,19 @@ Exam Buddy AI helps students learn faster and prepare more effectively using Art
 ✨ Features
 
 🤖 AI Chat Assistant for answering study questions.
+
 📝 Quiz Generator for creating practice quizzes.
+
 📄 Notes Summarizer to convert long notes into concise summaries.
+
 📅 Study Planner to generate personalized study schedules.
+
 💪 Daily Motivation to encourage consistent learning.
+
 🔐 User Login and Sign Up system.
+
 📱 Responsive design for desktop and mobile devices.
+
 🤖 AI Feature
 
 The application uses Google Gemini AI through a secure backend service.
@@ -39,11 +46,17 @@ The application uses Google Gemini AI through a secure backend service.
 The AI assistant is instructed to:
 
 Explain concepts in simple language.
+
 Generate educational quizzes.
+
 Summarize notes accurately.
+
 Create realistic study plans.
+
 Motivate students during exam preparation.
+
 Focus on educational content and student learning.
+
 
 🛠️ Technologies Used
 
@@ -89,6 +102,7 @@ About
 light mode
 
 ![Study Planner](https://github.com/sharlawazir/Exam-Buddy/blob/c1f5df5d6fe12cd013540a896b1be8f04d4d03b4/Screenshot%202026-07-26%20203814.png)
+
 
 🚀 How to Run the Project
 
