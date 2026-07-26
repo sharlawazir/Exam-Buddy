@@ -71,7 +71,7 @@ AI Chat Assistant
 
 Quiz Generator
 
-![Quiz Generator](screenshots/quiz.png)
+![Quiz Generator](https://github.com/sharlawazir/Exam-Buddy/blob/00d951208bac46aa26342f783aec4b8caadcc0e3/Screenshot%202026-07-26%20203643.png)
 
 Study Planner
 
