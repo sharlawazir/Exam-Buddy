@@ -39,7 +39,9 @@ Exam Buddy AI helps students learn faster and prepare more effectively using Art
 
 📱 Responsive design for desktop and mobile devices.
 
+
 🤖 AI Feature
+
 
 The application uses Google Gemini AI through a secure backend service.
 
@@ -58,6 +60,7 @@ Motivate students during exam preparation.
 Focus on educational content and student learning.
 
 
+
 🛠️ Technologies Used
 
 Bolt.new
@@ -68,6 +71,7 @@ Google Gemini API
 Bolt Database / Supabase Edge Functions
 GitHub
 Vercel
+
 
 📸 Screenshots
 
