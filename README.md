@@ -66,7 +66,8 @@ Home Page
 
 AI Chat Assistant
 
-![AI Chat Assistant](screenshots/chat.png)
+![AI Chat Assistant](https://github.com/sharlawazir/Exam-Buddy/blob/92bf202ae2cd344c5e4eb055a3a2414c12865e06/Screenshot%202026-07-26%20203631.png)
+![AI Chat Assistant](
 
 Quiz Generator
 
