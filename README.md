@@ -24,6 +24,7 @@ Staying motivated while studying.
 Exam Buddy AI helps students learn faster and prepare more effectively using Artificial Intelligence.
 
 ✨ Features
+
 🤖 AI Chat Assistant for answering study questions.
 📝 Quiz Generator for creating practice quizzes.
 📄 Notes Summarizer to convert long notes into concise summaries.
@@ -45,6 +46,7 @@ Motivate students during exam preparation.
 Focus on educational content and student learning.
 
 🛠️ Technologies Used
+
 Bolt.new
 React
 TypeScript
@@ -60,21 +62,22 @@ Add screenshots here after taking them.
 
 Home Page
 
-(Insert Screenshot 1)
+![Home Page](screenshots/home.png)
 
 AI Chat Assistant
 
-(Insert Screenshot 2)
+![AI Chat Assistant](screenshots/chat.png)
 
 Quiz Generator
 
-(Insert Screenshot 3)
+![Quiz Generator](screenshots/quiz.png)
 
-Study Planner / Notes Summarizer
+Study Planner
 
-(Insert Screenshot 4)
+![Study Planner](screenshots/planner.png)
 
 🚀 How to Run the Project
+
 Clone the repository.
 Install dependencies.
 npm install
@@ -82,6 +85,7 @@ Create the required environment variables.
 Start the development server.
 npm run dev
 Open the application in your browser.
+
 📂 GitHub Repository
 
 https://github.com/sharlawazir/Exam-Buddy
