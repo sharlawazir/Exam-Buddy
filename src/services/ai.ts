@@ -59,13 +59,26 @@ export interface MotivationCard {
 
 const uid = () => Math.random().toString(36).slice(2, 10);
 
-const FUNCTION_URL = `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/ai`;
+const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL;
+const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY;
+
+const FUNCTION_URL = SUPABASE_URL ? `${SUPABASE_URL}/functions/v1/ai` : '';
 const HEADERS = {
   'Content-Type': 'application/json',
-  Authorization: `Bearer ${import.meta.env.VITE_SUPABASE_ANON_KEY}`,
+  Authorization: `Bearer ${SUPABASE_ANON_KEY ?? ''}`,
 };
 
+function ensureConfigured(): void {
+  if (!SUPABASE_URL || !SUPABASE_ANON_KEY) {
+    throw new Error(
+      'AI is not configured for this deployment. Add VITE_SUPABASE_URL and VITE_SUPABASE_ANON_KEY as environment variables, then redeploy.',
+    );
+  }
+}
+
 async function callAI<T>(body: Record<string, unknown>): Promise<T> {
+  ensureConfigured();
+
   let res: Response;
   try {
     res = await fetch(FUNCTION_URL, {
@@ -75,6 +88,13 @@ async function callAI<T>(body: Record<string, unknown>): Promise<T> {
     });
   } catch {
     throw new Error('Could not reach the AI service. Check your connection and try again.');
+  }
+
+  const contentType = res.headers.get('content-type') || '';
+  if (!contentType.includes('application/json')) {
+    throw new Error(
+      'The AI service is not reachable from this deployment. Make sure the Supabase Edge Function is deployed and VITE_SUPABASE_URL is set correctly.',
+    );
   }
 
   let payload: { data?: T; error?: string; raw?: string };
