@@ -62,7 +62,7 @@ Add screenshots here after taking them.
 
 Home Page
 
-![Home Page](screenshots/home.png)
+![Home Page](https://github.com/sharlawazir/Exam-Buddy/blob/45fd3e5dba9f94604e5af4324bbcdf64484920ab/Screenshot%202026-07-26%20203615.png)
 
 AI Chat Assistant
 
