@@ -75,7 +75,20 @@ Quiz Generator
 
 Study Planner
 
-![Study Planner](screenshots/planner.png)
+![Study Planner](https://github.com/sharlawazir/Exam-Buddy/blob/c1f5df5d6fe12cd013540a896b1be8f04d4d03b4/Screenshot%202026-07-26%20203723.png)
+
+Note summerizer
+![Study Planner](https://github.com/sharlawazir/Exam-Buddy/blob/c1f5df5d6fe12cd013540a896b1be8f04d4d03b4/Screenshot%202026-07-26%20203659.png)
+
+Motivation
+![Study Planner](https://github.com/sharlawazir/Exam-Buddy/blob/c1f5df5d6fe12cd013540a896b1be8f04d4d03b4/Screenshot%202026-07-26%20203737.png)
+
+About
+![Study Planner](https://github.com/sharlawazir/Exam-Buddy/blob/c1f5df5d6fe12cd013540a896b1be8f04d4d03b4/Screenshot%202026-07-26%20203753.png)
+
+light mode
+
+![Study Planner](https://github.com/sharlawazir/Exam-Buddy/blob/c1f5df5d6fe12cd013540a896b1be8f04d4d03b4/Screenshot%202026-07-26%20203814.png)
 
 🚀 How to Run the Project
 
